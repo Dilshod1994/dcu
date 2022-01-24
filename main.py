@@ -1,10 +1,9 @@
 import telebot
 import xlrd
 import random
-import requests
 from telebot import types
  
-proxies = {'http': '192.168.0.1:3128', 'https':'192.168.0.1:3128'}
+
 
 loc = (Geo-10242.xls")
 bot = telebot.TeleBot('5097552028:AAE6KEZRgvBCVNlMnn-x9f1mj18VshMaFHA')
