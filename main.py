@@ -7,7 +7,7 @@ from telebot import types
 
 loc = (Geo-10242.xls")
 bot = telebot.TeleBot('5097552028:AAE6KEZRgvBCVNlMnn-x9f1mj18VshMaFHA')
-#print ('ishga tushdi')
+print ('ishga tushdi')
 
 @bot.message_handler(commands=['start'])
 def start (message):
