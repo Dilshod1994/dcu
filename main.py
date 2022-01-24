@@ -8,15 +8,15 @@ proxies = {'http': '192.168.0.1:3128', 'https':'192.168.0.1:3128'}
 
 loc = ("D:\PYTHON\Geo-10242.xls")
 bot = telebot.TeleBot('5097552028:AAE6KEZRgvBCVNlMnn-x9f1mj18VshMaFHA')
-print ('ishga tushdi')
+#print ('ishga tushdi')
 
 @bot.message_handler(commands=['start'])
 def start (message):
     #bot.send_message(message.chat.id, 'Salom ' + message.chat.first_name) 
-    markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
-    but1 = types.KeyboardButton("TP raqam bo'yicha")
-    but2 = types.KeyboardButton("DCU bo'yicha")
-    markup.add(but1,but2)
+    #markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
+    #but1 = types.KeyboardButton("TP raqam bo'yicha")
+    #but2 = types.KeyboardButton("DCU bo'yicha")
+    #markup.add(but1,but2)
     
     bot.reply_to(message,"Salom , {0.first_name}\nASKUE bo'limining lokatsiya botiga XUSH kelibsiz\nSiz bu bot orqali Konsentratorning joylashgan joyini aniqlashingiz mumkin".format(message.from_user),parse_mode='html',reply_markup=markup)
     
