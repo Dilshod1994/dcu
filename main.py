@@ -6,7 +6,7 @@ from telebot import types
  
 proxies = {'http': '192.168.0.1:3128', 'https':'192.168.0.1:3128'}
 
-loc = ("D:\PYTHON\Geo-10242.xls")
+loc = (Geo-10242.xls")
 bot = telebot.TeleBot('5097552028:AAE6KEZRgvBCVNlMnn-x9f1mj18VshMaFHA')
 #print ('ishga tushdi')
 
