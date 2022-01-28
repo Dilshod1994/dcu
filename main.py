@@ -26,7 +26,7 @@ sheet = wb.sheet_by_index(0)
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://dcu-main-zwdt6m8dnsoxl6mhvedet.herokuapp.com/' + bot)
+    bot.set_webhook(url='https://quiet-ridge-71458.herokuapp.com/' + bot)
     return "!", 200
     
     
